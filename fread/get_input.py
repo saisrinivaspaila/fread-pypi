@@ -1,11 +1,11 @@
-def getInputsAsFile(mainFilePath, inputFilePath):
+def fileInput(mainFilePath, inputFilePath):
     with open(inputFilePath, 'a') as file:
         file.write('\n')
     with open(mainFilePath) as file:
         script = "fileOpenAsInput = open('"+inputFilePath+"')\n"
         line = file.readline()
         while line != '':
-            if "getInputsAsFile" in line:
+            if "fileInput" in line:
                 line = file.readline()
                 continue
             if "input()" in line:
