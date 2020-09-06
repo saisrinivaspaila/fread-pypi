@@ -1,6 +1,6 @@
 # fread
 
-Python package to convert the interactive based console to file input based with single statement
+Python package to convert the interactive based console to file input based, with a single statement.
 
 ---
 
@@ -10,10 +10,10 @@ Python package to convert the interactive based console to file input based with
 
 ### Why to use?
 
-There are people like me, who uses python for competitive programming or for building console bases applications. When I use my local editors I need to enter the code from console everytime. There are ways I can change it to file input based, but for that I need to refactor a lot of code while submissions.
-So this package helps you to take inputs directly from files with the same code that we write for interactive console even. With one line we can change the code from interactive console to file based input.
+There are people like me, who use python for competitive programming or for building console based applications. When I use my local editors, I need to enter the code from the console everytime. There are ways I can change it to file input based, for which I need to refactor a lot of code during submissions.
+So this package helps us to take inputs directly from files with the same code that we write for interactive console. With one line command, we can change the code from interactive console to file based input.
 
-I hope you people find it is usefull.
+I hope you people will find it is useful.
 
 ### How to use?
 

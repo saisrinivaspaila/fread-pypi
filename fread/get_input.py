@@ -17,4 +17,4 @@ def fileInput(mainFilePath, inputFilePath):
             script += line
             line = file.readline()
         exec(script)
-    exit()
+    quit()

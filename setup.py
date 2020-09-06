@@ -1,12 +1,15 @@
 from setuptools import setup
 
+
 def getReadme():
     with open("README.md") as f:
         description = f.read()
         return description
+
+
 setup(
     name="fread",
-    version="0.0.3",
+    version="1.0",
     description="A python package to change from Interaction console based code to file based code",
     long_description=getReadme(),
     long_description_content_type='text/markdown',
