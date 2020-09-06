@@ -7,7 +7,7 @@ setup(
     description='Change from interaction console to FileInput based console.',
     author='Venkata Sai Srinivsa Paila',
     author_email='pailasaisrinivas7668@gmail.comm',
-    url='',
+    url='https://github.com/saisrinivaspaila/FileInput-python-package',
     keywords=['input', 'file', 'programming'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
