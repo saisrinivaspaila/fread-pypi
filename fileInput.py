@@ -11,11 +11,11 @@ def getInputsAsFile(main, inputFile):
             if "getInputsAsFile" in c:
                 c = f.readline()
                 continue
-            if "time" in c:
-                c = f.readline()
-                continue
             if "input()" in c:
                 c = c.replace("input()", "fileOpenAsInput.readline()[:-1]")
+            elif "sys.stdin.readline()" in c:
+                c = c.replace("sys.stdin.readline()",
+                              "fileOpenAsInput.readline()[:-1]")
             script += c
             c = f.readline()
         exec(script)
