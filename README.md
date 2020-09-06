@@ -5,7 +5,7 @@ Python package to convert the interactive based console to file input based, wit
 ---
 
     Version - 1.0
-    Pypi -
+    Pypi - https://pypi.org/project/fread/1.0/
     Github - https://github.com/saisrinivaspaila/fread-pypi
 
 ### Why to use?
